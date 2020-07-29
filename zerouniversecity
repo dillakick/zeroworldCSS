@@ -1,0 +1,57 @@
+/* MADE BY nxm3/zer0world for zeroworldCSS */
+
+body {
+  background-image:url("https://paste.wheres-my-ta.co/uJyOEa.png");
+  background-size:519px,263px;
+  color: black;
+  font-family: arial;
+  animation: 200s bgscroll infinite linear;
+}
+
+@keyframes bgscroll {
+  0% {background-position-y:0px;}
+  0% {background-position-x:0px;}
+  100% {background-position-y:10000px;}
+  100% {background-position-x:10000px;}
+}
+
+h1#username {
+text-align: center;
+}
+
+.commentsList {
+background-color: darkgrey;
+border: 1px solid #151515;
+}
+
+img {
+border: 1px solid #000000;
+}
+
+.usersListInner {
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 250px!important;
+  border: 1px solid #000000;
+}
+
+.LeftHandUserInfo {
+background-color: #F38CFF;
+border: 1px solid #000000;
+
+}
+
+a[href^="/"] b {
+  visibility: hidden;
+}
+
+a[href^="/"] b:after {
+  content:"zerouniversecity.com"; 
+  visibility: visible;
+  display: block;
+  position: absolute;
+  color:black;
+  background-color: #fffff0a;
+  padding: 0px;
+  top: 2px;
+}
