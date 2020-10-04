@@ -1,57 +1,33 @@
-/* MADE BY nxm3/zer0world for zeroworldCSS */
+/* MADE BY lockdownlua/nxm3 for zeroworldCSS */
 
-body {
-  background-image:url("https://paste.wheres-my-ta.co/uJyOEa.png");
-  background-size:519px,263px;
-  color: black;
-  font-family: arial;
-  animation: 200s bgscroll infinite linear;
+.container {
+background-image: url("https://images.weserv.nl/?url=https://upload.wikimedia.org/wikipedia/en/a/a3/Kanyewest_collegedropout.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+font-family: Verdana;
+color: gray;
+border: 1px solid black;
 }
 
-@keyframes bgscroll {
-  0% {background-position-y:0px;}
-  0% {background-position-x:0px;}
-  100% {background-position-y:10000px;}
-  100% {background-position-x:10000px;}
+a {
+color: #F3F3F3;
 }
 
-h1#username {
-text-align: center;
+.about, .extended, .splashBlue, .padding {
+background-color: #990000;
+color: white;
+border: 1px solid white;
 }
 
-.commentsList {
-background-color: darkgrey;
-border: 1px solid #151515;
+.tableLeft {
+background-color: #660000;
 }
 
-img {
-border: 1px solid #000000;
+.tableRight {
+background-color: #990000;
 }
 
-.usersListInner {
-  overflow: hidden;
-  overflow-y: scroll;
-  height: 250px!important;
-  border: 1px solid #000000;
-}
-
-.LeftHandUserInfo {
-background-color: #F38CFF;
-border: 1px solid #000000;
-
-}
-
-a[href^="/"] b {
-  visibility: hidden;
-}
-
-a[href^="/"] b:after {
-  content:"zerouniversecity.com"; 
-  visibility: visible;
-  display: block;
-  position: absolute;
-  color:black;
-  background-color: #fffff0a;
-  padding: 0px;
-  top: 2px;
+.tableLeft, .tableRight {
+border: 1px solid white;
 }
